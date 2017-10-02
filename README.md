@@ -78,7 +78,7 @@ This implementation in Python is a simple demonstration of Multilevel Feedback Q
 
 ### Second step:
 
-    for Q in enumerate(queue):
+    for Q in queues:
       if Q is not empty:
         p = Q.peek()
         currProc = p
